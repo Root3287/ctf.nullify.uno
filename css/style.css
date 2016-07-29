@@ -1,0 +1,202 @@
+body, html {
+	background-color: #00a2e5;
+	height: 100%;
+	width: 100%;
+}
+
+/* navbar */
+.navbar-fixed-top {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-color: rgba(0, 0, 0, 0.0);
+}
+/* title */
+.navbar-fixed-top .navbar-brand {
+	color: white;
+}
+.navbar-fixed-top .navbar-brand:hover,
+.navbar-fixed-top .navbar-brand:focus {
+	color: #5E5E5E;
+}
+/* link */
+.navbar-fixed-top .navbar-nav > li > a {
+	color: white;
+}
+.navbar-fixed-top .navbar-nav > li > a:hover,
+.navbar-fixed-top .navbar-nav > li > a:focus {
+	color: #555;
+}
+.navbar-fixed-top .navbar-nav > .active > a, 
+.navbar-fixed-top .navbar-nav > .active > a:hover, 
+.navbar-fixed-top .navbar-nav > .active > a:focus {
+	color: #555;
+	background-color: #E7E7E7;
+}
+.navbar-fixed-top .navbar-nav > .open > a, 
+.navbar-fixed-top .navbar-nav > .open > a:hover, 
+.navbar-fixed-top .navbar-nav > .open > a:focus {
+	color: #555;
+	background-color: #D5D5D5;
+}
+
+.canvas {
+	position:relative; 
+	overflow:hidden;
+	width: 100%; 
+	height: 100vh;
+}
+
+.info-box {
+	margin-top: 100px; 
+	padding: 10px;
+	height: auto; 
+	width: auto;
+}
+
+.banner {
+	font-weight:500; 
+	color: white;
+}
+
+h1, h2, h3, h4, h5 
+{
+	color: white;
+	font-weight: 1000;
+}
+
+p {
+	color: white;
+}
+
+.brick {
+	background-image: url(/img/brk.jpg); 
+	background-repeat: repeat-x; 
+	height: 100px; 
+	width: 250px; 
+	position: absolute; 
+	right: 10px; 
+	bottom: 200px;
+}
+
+.brick.one {
+	right: 10px; 
+	bottom: 200px;
+}
+
+.brick.two {
+	right: 500px; 
+	bottom: 200px;
+}
+
+.brick.three {
+right: 200px; 
+bottom: 400px;
+}
+
+.q_block {
+	background-image: url(/img/q-block.png); 
+	background-repeat: no-repeat; 
+	position: absolute; 
+	height: 100px;
+	width: 250px; 
+
+}
+
+.q_block.one {
+	right: -50px; 
+	bottom: 200px;
+}
+
+.q_blank {
+background-image: url(/img/q-block-null.png); 
+background-repeat: no-repeat; 
+position: absolute;
+height: 100px;
+width: 250px;
+}
+
+.q_blank.one {
+right: 100px; 
+bottom: 400px;
+}
+
+.ground {
+	position:absolute; 
+	bottom:0; 
+	width: 150em;
+}
+
+.cloud1 {
+	position:absolute;
+	height:132px;
+	background:url('http://fotos.subefotos.com/0b84cd405ce010e3e156188bfc49ce8ao.png')no-repeat 0 0;
+	width:174px;
+	top:5%;
+	z-index:6;
+	-webkit-animation:cloud1 60s infinite;
+	-moz-animation:cloud1 60s infinite;
+	-o-animation:cloud1 60s infinite;
+	animation:cloud1 60s infinite;
+	overflow: hidden;
+}
+
+
+.cloud2 {
+	position:absolute;
+	height:132px;
+	background:url('http://fotos.subefotos.com/0b84cd405ce010e3e156188bfc49ce8ao.png')no-repeat 0 0;
+	width:174px;
+	top:15%;
+	z-index:6;
+	-webkit-animation:cloud1 90s infinite;
+	-moz-animation:cloud1 90s infinite;
+	-o-animation:cloud1 90s infinite;
+	animation:cloud1 90s infinite;
+	overflow: hidden;
+}
+
+.shell {
+	position:absolute;
+	height:28px;
+	width: 32px;
+	background:url('/img/shell.png')no-repeat 0 0;
+	bottom:24px;
+	z-index:6;
+	-webkit-animation:shell 15s infinite;
+	-moz-animation:shell 15s infinite;
+	-o-animation:shell 15s infinite;
+	animation:shell 15s infinite;
+	overflow: hidden;
+}
+
+
+#timer {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: -1px;
+}
+#timer span {
+	font-size: 60px;
+	color: white;
+	margin: 0 3px 0 15px;
+}
+#timer span:first-child {
+	margin-left: 0;
+}
+
+
+@-webkit-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@moz-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@o-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+
+@-webkit-keyframes cloud2 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@moz-keyframes cloud2 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@o-keyframes cloud2 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@keyframes cloud2 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+
+
+@-webkit-keyframes shell {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@moz-keyframes shell {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@o-keyframes shell {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
+@keyframes shell {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}

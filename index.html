@@ -1,209 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Primary Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- SUB -->
-    <title>NULLify | CTF</title>
-    <link rel="shortcut icon" href="/img/favicon.ico">
+<html>
+<head>
+	<title>HSCTF 2016</title>
 
-    <!-- Bootstrap -->
-    <link href="static/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="static/css/hsctf.css">
-
-    <!-- Icons -->
-    <link rel="stylesheet" href="static/icons/css/font-awesome.min.css">
-
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Orbitron:500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-
-    <!-- Clock -->
-    <link rel="stylesheet" type="text/css" href="static/css/jquery.classycountdown.min.css" />
-
-    <!-- Header Style -->
-    <style> h1 {color: #FF5C33;}h3{color: #6CB5FF; font-family: 'Orbitron', sans-serif;} .sponsors{ padding: 0 20px 30px 20px; }</style>
-    
-  </head>
-  <body style="background: black;">
-
-    <div class="fullscreen background" style="background-image:url('static/img/world.gif'); " data-img-width="1600" data-img-height="1064">
-
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/" style="font-family: 'Oswald', sans-serif;">{ NULLIFY }</a>
-            </div>
-          </div>
-
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="rules/">RULES</a></li>
-              <li><a href="#sponsors">SPONSORS</a></li>
-              <li><a href="/teams/">TEAMS</a></li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-            </ul>
-          </div>
-      </nav>
-        
-      <h1 style="text-align: center; font-family: 'Orbitron', sans-serif; color: #6CB5FF;">High School  <strong style="color: #FF5C33">CTF: Cyber</strong>  in T-minus</h1>
-
-      <div class="countdown" style="margin: 30px 40px 10px 40px;"></div>
-
-      <h1 style="text-align: center; font-family: 'Orbitron', sans-serif; color: white;">November 14, 2015</h1>
-
-    </div>
-        
-    <div id="sponsors">
-      <div style="color: white; padding: 0px 20px 20px 20px;">
-
-      
-      
-      <div class="container">
-        <div class="row">
-          <h1 style="text-align: center; text-transform: uppercase;letter-spacing: 1em;font-weight: 400;">Gigabyte Sponsors</h1><hr>
-          <div class="span4"><img class="center-block img-responsive sponsors" src="static/img/1.png" /></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="span4"><img class="center-block img-responsive sponsors" src="static/img/5.png" /></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <h1 style="text-align: center; text-transform: uppercase;letter-spacing: 1em;font-weight: 400;">Megabyte Sponsors</h1><hr>
-          <div class="span4"><img class="center-block img-responsive sponsors" src="static/img/4.png" width="500"/></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="span4"><img class="center-block img-responsive sponsors" src="static/img/3.png" width="500" /></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="span4"><img class="center-block img-responsive sponsors" src="static/img/2.png" width="500"/></div>
-        </div>
-      </div>
-
-      <br><a href="static/docs/sponsors.pdf"><h3 style="text-align: center;"><i class="fa fa-file-text"></i> View PDF</h3></a><br>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="static/js/bootstrap.min.js"></script>
+	<link href='http://fontsforweb.com/font/getcss?id=181&apikey=4616230db5c05e08772f712a44eae32e' rel='stylesheet' type='text/css'>
 
-    <script src="static/js/hsctf.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar-fixed-top">
+		<div class="container-fluid">
 
-    <script src="static/js/jquery.classycountdown.min.js"></script>
-    <script src="static/js/jquery.knob.js"></script>
-    <script src="static/js/jquery.throttle.js"></script>
-    
-    <script type="text/javascript">
-      $(document).ready(function() {
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">{NULLIFY}</a>
+			</div>
 
-        $('.countdown').ClassyCountdown({
-          theme: "flat-colors-very-wide",
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#" class="">Sponsors</a></li>
+					<li><a href="#" class="">Rules</a></li>
+					<li><a href="#" class="">Teams</a></li>
+				</ul>
 
-          now: $.now()/1000,
-          end: '1447513200',
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">HSCTF 2015</a></li>
+							<li><a href="#">HSCTF 2014</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Github</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="canvas">
+
+		<div class="info-box">
+			<h4>NULLify Computer Security Group Presents:</h4>
+			<h1 class="fontsforweb_SuperMarioBros banner">High School CTF: Retro</h1>
+			<p>High School CTF with be hosted on November 19th at the Nebraska Ballroom<br> at the University of Nebraska Omaha Dodge Campus.</p>
+
+			<div id="timer">
+				<span id="days"></span>days
+				<span id="hours"></span>hours
+				<span id="minutes"></span>minutes
+				<span id="seconds"></span>seconds
+			</div>
+
+		</div>
 
 
-          style: {
-            element: '',
+		<div class="brick one"></div>
+		<div class="brick two"></div>
+		<div class="brick three"></div>
 
-          labels: false,
-          days: {
+		<div class="q_block one"></div>
+		<div class="q_blank one"></div>
 
-            gauge: {
+		<img src="/img/start-bg.png" class="ground">
+	</div>
 
-              thickness: 0.1,
 
-              bgColor: 'rgba(255, 92, 51, 0)',
 
-              fgColor: 'rgba(255, 92, 51, 1)',
 
-              lineCap: 'butt'
+	<div style="width: 100%; overflow: hidden;">
+		<div class="cloud1"></div>
+		<div class="cloud2"></div>
+	</div>
 
-            },
+	<div class="shell"></div>
+	<!--
+		<div style="position:relative; width: 100%; height: 100vh; overflow:hidden; background-color: black;"></div>
+		<div>
+			<img src="/img/cave-floor.png" style="position:absolute; bottom:0; width: 150em;">
+		</div>
+	-->
 
-            textCSS: 'font-family:\'Orbitron\', sans-serif;; font-size:25px; font-weight:300; color: white;'
+	</body>
 
-          },
+	<!-- jQuery Load -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
-          hours: {
+	<!-- Bootstrap Load -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-            gauge: {
+	<script src="/js/clock.js"></script>
 
-              thickness: 0.1,
-
-              bgColor: 'rgba(108, 181, 255, 0)',
-
-              fgColor: 'rgba(108, 181, 255, 1)',
-
-              lineCap: 'butt'
-
-            },
-
-           textCSS: 'font-family:\'Orbitron\', sans-serif;; font-size:25px; font-weight:300; color: white;'
-
-          },
-
-          minutes: {
-
-            gauge: {
-
-              thickness: 0.1,
-
-              bgColor: 'rgba(255, 92, 51, 0)',
-
-              fgColor: 'rgba(255, 92, 51, 1)',
-
-              lineCap: 'butt'
-
-            },
-
-            textCSS: 'font-family:\'Orbitron\', sans-serif;; font-size:25px; font-weight:300; color: white;'
-
-          },
-
-          seconds: {
-
-            gauge: {
-
-              thickness: 0.1,
-
-              bgColor: 'rgba(108, 181, 255, 0)',
-
-              fgColor: 'rgba(108, 181, 255, 1)',
-
-              lineCap: 'butt'
-
-            },
-
-            textCSS: 'font-family:\'Orbitron\', sans-serif;; font-size:25px; font-weight:300; color: white;'
-
-          }
-
-        },
-
-        });
-      });
-    </script>
-
-  </body>
 </html>
