@@ -52,6 +52,14 @@ body, html {
 	width: auto;
 }
 
+.text-box {
+	width: 600px;
+	background-color: #F1614B;
+	position: absolute;
+	z-index: 100;
+	padding: 15px;
+}
+
 .banner {
 	font-weight:500; 
 	color: white;
@@ -75,21 +83,29 @@ p {
 	position: absolute; 
 	right: 10px; 
 	bottom: 200px;
+	position: absolute;
+  z-index: 100;
 }
 
 .brick.one {
 	right: 10px; 
 	bottom: 200px;
+	position: absolute;
+  z-index: 100;
 }
 
 .brick.two {
 	right: 500px; 
 	bottom: 200px;
+	position: absolute;
+  z-index: 100;
 }
 
 .brick.three {
-right: 200px; 
-bottom: 400px;
+	right: 200px; 
+	bottom: 400px;
+	position: absolute;
+  z-index: 100;
 }
 
 .q_block {
@@ -98,25 +114,32 @@ bottom: 400px;
 	position: absolute; 
 	height: 100px;
 	width: 250px; 
-
+	position: absolute;
+  z-index: 101;
 }
 
 .q_block.one {
 	right: -50px; 
 	bottom: 200px;
+	position: absolute;
+  z-index: 101;
 }
 
 .q_blank {
-background-image: url(/img/q-block-null.png); 
-background-repeat: no-repeat; 
-position: absolute;
-height: 100px;
-width: 250px;
+	background-image: url(/img/q-block-null.png); 
+	background-repeat: no-repeat; 
+	position: absolute;
+	height: 100px;
+	width: 250px;
+	position: absolute;
+  z-index: 101;
 }
 
 .q_blank.one {
-right: 100px; 
-bottom: 400px;
+	right: 100px; 
+	bottom: 400px;
+	position: absolute;
+  z-index: 101;
 }
 
 .ground {
@@ -131,7 +154,7 @@ bottom: 400px;
 	background:url('http://fotos.subefotos.com/0b84cd405ce010e3e156188bfc49ce8ao.png')no-repeat 0 0;
 	width:174px;
 	top:5%;
-	z-index:0;
+	z-index:6;
 	-webkit-animation:cloud1 60s infinite;
 	-moz-animation:cloud1 60s infinite;
 	-o-animation:cloud1 60s infinite;
@@ -146,7 +169,7 @@ bottom: 400px;
 	background:url('http://fotos.subefotos.com/0b84cd405ce010e3e156188bfc49ce8ao.png')no-repeat 0 0;
 	width:174px;
 	top:15%;
-	z-index:0;
+	z-index:6;
 	-webkit-animation:cloud1 90s infinite;
 	-moz-animation:cloud1 90s infinite;
 	-o-animation:cloud1 90s infinite;
@@ -158,7 +181,7 @@ bottom: 400px;
 	position:absolute;
 	height:28px;
 	width: 32px;
-	background:url('/img/shell.png')no-repeat 0 0;
+	background:url('../img/shell.png')no-repeat 0 0;
 	bottom:24px;
 	z-index:6;
 	-webkit-animation:shell 15s infinite;
