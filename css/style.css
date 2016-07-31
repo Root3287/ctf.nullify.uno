@@ -10,7 +10,7 @@ html {
 
 /* navbar */
 .navbar-fixed-top {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 130, 183,0.85);
 	border-color: rgba(0, 0, 0, 0.0);
 }
 /* title */
@@ -40,6 +40,12 @@ html {
 .navbar-fixed-top .navbar-nav > .open > a:focus {
 	color: #555;
 	background-color: #D5D5D5;
+}
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-collapse {
+	background-color: rgba(0, 130, 183,0.85);
 }
 
 .canvas {
