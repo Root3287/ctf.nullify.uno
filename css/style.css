@@ -58,10 +58,13 @@ html {
 
 .text-box {
 	width: 600px;
-	background-color: #F1614B;
+	background-color: rgba(79, 85, 167, 0.85);
 	position: absolute;
 	z-index: 110;
 	padding: 15px;
+	-webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 10.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 10.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 10.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .banner {
