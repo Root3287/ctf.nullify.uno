@@ -64,7 +64,7 @@ html {
 }
 
 .text-box {
-	width: 600px;
+	width: auto;
 	background-color: rgba(79, 85, 167, 0.85);
 	position: absolute;
 	z-index: 110;
@@ -198,10 +198,11 @@ p {
 	background:url('../img/shell.png')no-repeat 0 0;
 	bottom:24px;
 	z-index:6;
-	-webkit-animation:shell 15s infinite;
-	-moz-animation:shell 15s infinite;
-	-o-animation:shell 15s infinite;
-	animation:shell 15s infinite;
+	-webkit-animation:shell 5s infinite;
+	-moz-animation:shell 5s infinite;
+	-o-animation:shell 5s infinite;
+	animation:shell 5s infinite;
+	animation-timing-function: linear;
 	overflow: hidden;
 }
 
