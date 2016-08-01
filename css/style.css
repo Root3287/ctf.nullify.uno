@@ -88,6 +88,7 @@ html {
 	width: auto;
 	background-color: rgba(0, 89, 128 ,0.85);
 	position: absolute;
+	min-width: 615px;
 	z-index: 110;
 	padding: 15px;
 	margin-right: 10px;
