@@ -40,5 +40,5 @@
 }
 
 $( ".shell" ).click(function() {
-  		window.location.replace("http://0.0.0.0:8000/img/shell.png");
+  		window.location.replace("http://ctf.nullify.uno/img/shell.png");
 	});
