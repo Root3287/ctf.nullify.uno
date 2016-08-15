@@ -146,7 +146,7 @@ p {
 }
 
 .brick {
-	background-image: url(/img/brk.jpg); 
+	background-image: url(../img/brk.jpg); 
 	background-repeat: repeat-x; 
 	height: 100px; 
 	width: 250px; 
@@ -179,7 +179,7 @@ p {
 }
 
 .q_block {
-	background-image: url(/img/q-block.png); 
+	background-image: url(../img/q-block.png); 
 	background-repeat: no-repeat; 
 	position: absolute; 
 	height: 100px;
@@ -196,7 +196,7 @@ p {
 }
 
 .q_blank {
-	background-image: url(/img/q-block-null.png); 
+	background-image: url(../img/q-block-null.png); 
 	background-repeat: no-repeat; 
 	position: absolute;
 	height: 100px;
