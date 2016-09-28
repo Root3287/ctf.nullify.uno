@@ -278,6 +278,27 @@ p {
 	margin-left: 0;
 }
 
+.panel {
+
+	border: 2px solid;
+	color: white;
+	height: 300px;
+}
+
+.panel-title {
+	color: white;
+	text-align: center;
+}
+
+.panel-default>.panel-heading {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-bottom: none;
+}
+
+.sponsor-img {
+	width: 100%;
+	height: auto;
+}
 
 @-webkit-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
 @moz-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
