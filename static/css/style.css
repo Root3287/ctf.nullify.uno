@@ -281,13 +281,14 @@ p {
 .panel {
 	border: 2px solid;
 	color: white;
-	height: 300px;
 }
 
 .panel-title {
 	color: white;
 	text-align: center;
 	font-size: 1.5vw;
+	font-weight: 200;
+	
 }
 
 .panel-default>.panel-heading {
@@ -303,18 +304,17 @@ p {
 	height: 49px;
 }
 
-.top-sponsors, .bottom-sponsors {
+.top-show, .bottom-show {
 	display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.sponsor-box {
-	width: 500px;
+.show-box {
+	width: 40vw;
 	margin: 0px 20px;
 }
 
-.sponsor-img {
+.show-img {
   width: 40%;
   height: auto;
   margin: 4%;
