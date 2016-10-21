@@ -279,7 +279,6 @@ p {
 }
 
 .panel {
-
 	border: 2px solid;
 	color: white;
 	height: 300px;
@@ -288,6 +287,7 @@ p {
 .panel-title {
 	color: white;
 	text-align: center;
+	font-size: 1.5vw;
 }
 
 .panel-default>.panel-heading {
@@ -295,9 +295,29 @@ p {
 	border-bottom: none;
 }
 
+.panel-body {
+  text-align: center;
+}
+
+.no-content {
+	height: 49px;
+}
+
+.top-sponsors, .bottom-sponsors {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-box {
+	width: 500px;
+	margin: 0px 20px;
+}
+
 .sponsor-img {
-	width: 45%;
-	height: auto;
+  width: 40%;
+  height: auto;
+  margin: 4%;
 }
 
 @-webkit-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
