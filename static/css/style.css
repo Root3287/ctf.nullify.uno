@@ -298,6 +298,7 @@ p {
 
 .panel-body {
   text-align: center;
+  padding: 0px;
 }
 
 .no-content {
@@ -318,6 +319,10 @@ p {
   width: 40%;
   height: auto;
   margin: 4%;
+}
+
+.img-height-control {
+	margin: 0px 4%;
 }
 
 @-webkit-keyframes cloud1 {0% {left:-50%;}20% {left:-10%;}100% {left:100%;}}
