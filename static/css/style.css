@@ -321,6 +321,12 @@ p {
   margin: 4%;
 }
 
+.show-big-img {
+	width: 80%;
+  height: auto;
+  margin: 4%;
+}
+
 .img-height-control {
 	margin: 0px 4%;
 }
